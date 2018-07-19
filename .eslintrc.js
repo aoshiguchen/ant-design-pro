@@ -10,6 +10,7 @@ module.exports = {
     jasmine: true,
   },
   rules: {
+    'linebreak-style': [0, 'error', 'windows'], //允许windows开发环境
     'generator-star-spacing': [0],
     'consistent-return': [0],
     'react/forbid-prop-types': [0],
